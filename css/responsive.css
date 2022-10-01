@@ -1,0 +1,140 @@
+@media screen and (max-width:992px) {
+    .desk-show {
+        display: none;
+    }
+
+    .box-initial-infos-image {
+        width: 100%;
+        padding-top: 32px;
+    }
+
+    .box-initial-infos {
+        flex-direction: column;
+    }
+
+    .box-initial-infos-title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .box-initial-benefits {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-benefits {
+        justify-content: center;
+        width: 70%;
+        padding: 32px 16px;
+        margin: 16px 0;
+    }
+
+    .card-benefits img {
+        margin-right: 16px;
+    }
+
+
+
+}
+
+@media screen and (max-width:768px) {
+    .box-initial-infos-title h1 {
+        font-size: 1.5em;
+        font-weight: 300;
+    }
+
+    .box-initial-infos-title p {
+        font-size: .9em;
+    }
+
+    .box-initial-infos-image {
+        width: 100%;
+        padding-top: 32px;
+    }
+}
+
+
+@media screen and (max-width:450px) {
+    .box-initial-benefits {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-benefits {
+        justify-content: space-evenly;
+        width: 100%;
+        padding: 32px 16px;
+        margin: 16px 0;
+    }
+
+    label {
+        color: var(--white);
+        font-weight: 500;
+        padding: 4px 0;
+    }
+
+    input {
+        width: 250px;
+    }
+
+    .input-box-flex {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .input-cpf {
+        margin-right: 0;
+        width: 250px;
+    }
+    .box-img-option-payment {
+        width: 100%;
+    }
+
+    .btn-card-option,
+    .btn-pix-option {
+        user-select: none !important;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .input-box-flex-info-cards {
+        flex-direction: row;
+    }
+
+    .box-input .month {
+        margin-right: 16px;
+    }
+
+    .box-input .year {
+        width: 40px;
+        margin-right: 16px;
+    }
+
+    .box-input .code {
+        width: 40px;
+    }
+
+    .box-pix-img-instructions {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .instructions-pix-payment {
+        margin: 16px 0;
+    }
+
+    .box-pix-img {
+        margin: 0;
+    }
+
+    .box-thank-you {
+        width: 88%;
+    }
+    .box-thank-you h1 {
+        font-size: 1.2em;
+    }
+    .msg-confirmation h2 {
+        font-size: 1em;
+    }
+}

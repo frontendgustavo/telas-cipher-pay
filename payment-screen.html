@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Cipher Pay - Payment Screen</title>
+</head>
+
+<body>
+    <main class="bg-dark main-home">
+        <section class="container">
+            <div class="box-form-payment-screen">
+                <div class="ads">
+                    <img src="imgs/ads-payment-screen.png" alt="">
+                </div>
+                <div class="container-form">
+                    <form class="form-payment-screen">
+                        <div class="box-input">
+                            <label for="name">Nome Completo:</label>
+                            <input required type="text" placeholder="João Santos">
+                        </div>
+
+                        <div class="box-input">
+                            <label for="email">Email:</label>
+                            <input required type="email" placeholder="joaosantoss@gmail.com">
+                        </div>
+
+                        <div class="input-box-flex">
+                            <div class="box-input-column">
+                                <div class="box-input">
+                                    <label for="cpf">CPF:</label>
+                                    <input required type="text" maxlength="14" class="input-cpf" placeholder="848.789.789-01">
+                                </div>
+                            </div>
+
+                            <div class="box-input-column">
+                                <div class="box-input">
+                                    <label for="">Telefone:</label>
+                                    <input required type="tel" placeholder="11 99999-9999">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="box-options-payments">
+                            <span class="btn-card-option btn-payment-active">Cartão</span>
+                            <span class="btn-pix-option">Pix</span>
+                        </div>
+                        <div class="box-img-option-payment">
+
+                            <div class="card-payment method-payment-card method-payment-active">
+                                <img src="imgs/card-credit.png" alt="" width="100%">
+
+                                <div class="box-input">
+                                    <label for="">Número do cartão:</label>
+                                    <input required type="text">
+                                </div>
+
+                                <div class="input-box-flex input-box-flex-info-cards">
+                                    <div class="box-validate-card">
+                                        <div class="box-input">
+                                            <label for="">Mês</label>
+                                            <select name="" id="" class="month">
+                                                <option value="">01</option>
+                                                <option value="">02</option>
+                                                <option value="">03</option>
+                                                <option value="">04</option>
+                                                <option value="">05</option>
+                                                <option value="">06</option>
+                                                <option value="">07</option>
+                                                <option value="">08</option>
+                                                <option value="">09</option>
+                                                <option value="">10</option>
+                                                <option value="">11</option>
+                                                <option value="">12</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="box-input">
+                                            <label for="">Ano:</label>
+                                            <input required type="text" maxlength="2" class="year">
+                                        </div>
+                                    </div>
+                                    <div class="box-input">
+                                        <label for="">Código</label>
+                                        <input required type="text" maxlength="3" class="code">
+                                    </div>
+                                </div>
+
+                                <div class="box-input">
+                                    <label for="">Parcelas:</label>
+                                    <div class="box-select-installments">
+                                        <select name="" id="" class="installments">
+                                            <option value="">1x de R$ 150</option>
+                                            <option value="">2x de R$ 150</option>
+                                            <option value="">3x de R$ 150</option>
+                                            <option value="">4x de R$ 150</option>
+                                            <option value="">5x de R$ 150</option>
+                                            <option value="">6x de R$ 150</option>
+                                            <option value="">7x de R$ 150</option>
+                                            <option value="">8x de R$ 150</option>
+                                            <option value="">9x de R$ 150</option>
+                                            <option value="">10x de R$ 150</option>
+                                            <option value="">11x de R$ 150</option>
+                                            <option value="">12x de R$ 150</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pix-payment method-payment-pix">
+                                <div class="box-pix-img-instructions">
+                                    <div class="box-pix-img">
+                                        <img src="imgs/qr-code-pix.png" alt="">
+                                    </div>
+                                    <div class="instructions-pix-payment">
+                                        <div class="instructions-pix">
+                                            <span class="number-instruction-pix">1</span>
+                                            <p>Abra o aplicativo do seu banco e selecione PIX como forma de pagamento.
+                                            </p>
+                                        </div>
+                                        <div class="instructions-pix">
+                                            <span class="number-instruction-pix">2</span>
+                                            <p>Aponte a câmera do telefone para a tela e escaneie o QR Code.</p>
+                                        </div>
+                                        <div class="instructions-pix">
+                                            <span class="number-instruction-pix">3</span>
+                                            <p>Confirme as informações de pagamento e conclua sua compra</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="box-input">
+                                    <label for="">Código PIX:</label>
+                                    <input disabled type="text" placeholder="a56c-4928-93b3-9b7bf14beeab">
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr class="divider-hr">
+                        <div class="footer-payment">
+                            <img src="imgs/logo-gray.png" alt="" width="70px">
+                            <p>
+                                <a href="">Política de Privacidade</a>
+                                e
+                                <a href="">Termos de Serviço</a>
+                            </p>
+                            <p>*Parcelamento com tarifa de 2.99% a.m <br>
+                                Ao prosseguir você concorda com os Termos de Compra</p>
+                        </div>
+                </div>
+
+
+                <button type="submit" class="btn btn-payment btn-card method-payment-card method-payment-active">
+                    <img src="imgs/icons/icon-payment-white.png" alt="" width="20px">
+                    Pagar agora!
+                </button>
+                <button type="submit" class="btn btn-payment btn-pix method-payment-pix">
+                    Aguardando pagamento...
+                </button>
+
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/scripts.js"></script>
+    <script src="js/card-lib.js"></script>
+</body>
+
+</html>
