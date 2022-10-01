@@ -118,8 +118,9 @@
     margin-right: 32px;
     color: var(--white);
 }
+
 .card-benefits img {
-    margin-right:1em;
+    margin-right: 1em;
 }
 
 /* PAYMENT SCREEN */
@@ -137,6 +138,7 @@
     width: 100%;
     padding-bottom: 16px;
 }
+
 .ads img {
     width: 100%;
 }
@@ -160,7 +162,7 @@ input {
     border-radius: 6px;
     height: 22px;
     padding: 10px 0;
-    padding-left:8px;
+    padding-left: 8px;
     outline: none;
     transition: border .4s;
     color: var(--white);
@@ -187,6 +189,7 @@ input::placeholder {
     margin-right: 32px;
     width: 140px;
 }
+
 .box-img-option-payment {
     width: 400px;
 }
@@ -250,12 +253,58 @@ input::placeholder {
     margin-top: 32px;
 }
 
+.credit-card-item {
+    padding: 8px;
+    padding-top: 32px;
+}
+
+.credit-card {
+    height: 180px;
+    background: rgb(83,83,83);
+    background: linear-gradient(121deg, rgba(83,83,83,1) 0%, rgba(37,37,37,1) 100%);
+    border-radius: 30px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--white);
+    font-weight: 500;
+}
+
+.infos-credit-card-flag {
+    display: flex;
+    justify-content: flex-end;
+}
+.infos-credit-card-flag img{
+    margin:0;
+    width: 70px;
+}
+
+.infos-credit-card-details {
+    display: flex;
+    justify-content: space-between;
+    padding:16px;
+}
+
+.info-number-card {
+    width: 200px;
+}
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+    -moz-appearance: textfield;
+    appearance: textfield;
+ 
+ }
 .box-input {
     display: flex;
     flex-direction: column;
     margin: 0;
     margin-top: 16px;
 }
+
 .box-input-column {
     display: flex;
     flex-direction: column;
@@ -334,7 +383,8 @@ input::placeholder {
     background-color: var(--grayColor);
     border: 1px solid transparent;
     border-radius: 15px;
-    padding: 12px 16px;;
+    padding: 12px 16px;
+    ;
     margin-left: 0px;
     margin-right: 0px;
     outline: none;
@@ -451,6 +501,7 @@ input::placeholder {
     justify-content: center;
     align-items: center;
 }
+
 .box-thank-you {
     width: 368px;
     border-radius: 20px;
@@ -458,7 +509,7 @@ input::placeholder {
     padding: 16px;
     display: flex;
     justify-content: center;
-    align-items:  center;
+    align-items: center;
     flex-direction: column;
 }
 
@@ -523,14 +574,17 @@ input::placeholder {
         box-shadow: inset 0px 0px 0px 30px #fefefe00
     }
 }
+
 .box-infos-finish {
     width: 100%;
     margin-top: 32px;
 }
-.box-infos-finish p{
+
+.box-infos-finish p {
     color: var(--white);
     margin-bottom: 16px;
 }
+
 .infos-finish {
     height: 20px;
     background-color: var(--grayColor);
@@ -543,8 +597,9 @@ input::placeholder {
     color: var(--white);
     font-weight: 500;
 }
+
 .msg-confirmation h2 {
-    padding-top:32px ;
+    padding-top: 32px;
     text-align: center;
     color: var(--white);
     font-size: 1.1em;

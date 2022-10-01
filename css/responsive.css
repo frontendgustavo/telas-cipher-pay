@@ -76,18 +76,19 @@
     }
 
     input {
-        width: 250px;
+        width:100%;
     }
 
     .input-box-flex {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: stretch;
     }
 
     .input-cpf {
         margin-right: 0;
-        width: 250px;
+        width: 100%;
     }
+
     .box-img-option-payment {
         width: 100%;
     }
@@ -131,10 +132,56 @@
     .box-thank-you {
         width: 88%;
     }
+
     .box-thank-you h1 {
         font-size: 1.2em;
     }
+
     .msg-confirmation h2 {
         font-size: 1em;
+    }
+
+
+
+}
+
+@media screen and (max-width:449px) {
+    .credit-card-item {
+        padding: 8px;
+        padding-top: 32px;
+    }
+
+    .credit-card {
+        height: 130px;
+        background: rgb(83, 83, 83);
+        background: linear-gradient(121deg, rgba(83, 83, 83, 1) 0%, rgba(37, 37, 37, 1) 100%);
+        border-radius: 30px;
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: var(--white);
+        font-weight: 500;
+    }
+
+    .infos-credit-card-flag {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .infos-credit-card-flag img {
+        margin: 0;
+        width: 70px;
+    }
+
+    .infos-credit-card-details {
+        display: flex;
+        justify-content: space-between;
+        padding: 8px;
+        font-size: 11px;
+    }
+
+    .info-number-card {
+        width: 130px;
     }
 }
